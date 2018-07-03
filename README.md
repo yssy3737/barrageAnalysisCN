@@ -6,3 +6,4 @@
 python logProcess.py server.log | grep -v '[empty] line' > barrage.temp
 python segment.py > seg.temp
 ```
+######
